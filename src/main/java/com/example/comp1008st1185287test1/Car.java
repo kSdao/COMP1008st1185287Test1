@@ -44,9 +44,16 @@ public class Car {
 
 
     public void setYear(int year) {
-        if (year >= 1900 && year <= 2023);
+        if (year >= 1900 && year <= 2023)
         this.year = year;
         else
          throw new IllegalArgumentException("Not a valid year in our system");
+    }
+
+    public Car(String make, String model, double price, int year) {
+        this.make = make;
+        this.model = model;
+        this.price = price;
+        this.year = year;
     }
 }
