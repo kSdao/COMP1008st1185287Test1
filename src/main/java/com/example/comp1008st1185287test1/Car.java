@@ -56,4 +56,12 @@ public class Car {
         this.price = price;
         this.year = year;
     }
+
+    public String toString() {
+        return String.format("%s-%s, price: $%.2f",make, model, price, year);
+    }
+
+
+
+
 }
