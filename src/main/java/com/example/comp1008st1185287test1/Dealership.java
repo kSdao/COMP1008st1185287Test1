@@ -25,6 +25,14 @@ private ArrayList<Car> inventory;
         return total;
     }
 
+public <arraylist> getCarsNewerThan(){
+
+
+}
+
+
+
+
     @Override
     public String toString() {
         return String.format("The dealerships entire inventory has %s a total price of $%.2f", + getInventoryValue());
