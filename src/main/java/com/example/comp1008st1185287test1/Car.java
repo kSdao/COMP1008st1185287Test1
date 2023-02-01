@@ -61,4 +61,11 @@ public class Car {
         return String.format("%s-%s, price: $%.2f",make, model, price, year);
     }
 
+    public double getPrice() {
+        return price;
+    }
+
+
+
+
 }

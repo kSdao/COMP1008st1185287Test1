@@ -10,6 +10,10 @@ public class Main {
     System.out.println(car1);
     System.out.println(car2);
 
+        Dealership dealership = new Dealership ();
+        Dealership.addCar(car1);
+        Dealership.addCar(car2);
 
+        System.out.println("\n"+ Dealership);
     }
 }

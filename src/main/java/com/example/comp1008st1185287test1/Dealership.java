@@ -19,6 +19,18 @@ private ArrayList<Car> inventory;
         }
 
 
+    public double getInventoryValue(){
+        double total = 0.00;
+        for (Car car: inventory) total += car.getPrice();
+        return total;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("The dealerships entire inventory has %s a total price of $%.2f", + getInventoryValue());
+    }
+
+
 
     }
 
